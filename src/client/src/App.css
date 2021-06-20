@@ -3,13 +3,17 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 25vmin;
   pointer-events: none;
+  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 15s linear;
   }
 }
 
@@ -35,4 +39,17 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.app {
+  padding: 30px;
+  background-color: floralwhite;
+  min-height: 100vh;
+}
+
+.todo {
+  align-items: center;
+  display: flex;
+  font-size: 18px;
+  justify-content: space-between;
 }
